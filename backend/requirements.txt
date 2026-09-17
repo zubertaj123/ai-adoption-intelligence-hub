@@ -1,0 +1,56 @@
+# Core Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.18
+gunicorn==23.0.0
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+greenlet==3.1.1
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# Validation & Settings
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Excel Processing
+openpyxl==3.1.5
+
+# HTTP Client (for future Azure integrations)
+httpx==0.28.1
+
+# Logging & Monitoring
+structlog==24.4.0
+opentelemetry-api==1.29.0
+opentelemetry-sdk==1.29.0
+opentelemetry-instrumentation-fastapi==0.50b0
+
+# Utils
+python-dateutil==2.9.0
+orjson==3.10.13
+
+# Development
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+factory-boy==3.3.1
+faker==33.1.0
+
+# Future: Snowflake
+# snowflake-sqlalchemy==1.7.0
+# snowflake-connector-python==3.12.0
+
+# Future: Redis
+# redis[hiredis]==5.2.1
+
+# Future: Azure
+# azure-storage-blob==12.24.0
+# azure-identity==1.19.0
+# azure-monitor-opentelemetry==1.6.4

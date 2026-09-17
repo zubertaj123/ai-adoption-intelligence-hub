@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.template
+*.pem
+*.key
+*.log
+logs/
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+faiss_index/
+*.xlsx
